@@ -54,22 +54,23 @@ class ExplorePage extends StatelessWidget {
               runSpacing: 16,
               children: [
                 CategoryCard(
-                    title: 'Healthy',
-                    image: AssetImage('assets/images/healthy.jpg')),
+                    title: 'Football',
+                    image: AssetImage('assets/images/cat-football.jpg')),
                 CategoryCard(
-                    title: 'Drink',
-                    image: AssetImage('assets/images/drink.jpg')),
+                    title: 'Rugby',
+                    image: AssetImage('assets/images/cat-rugby.jpg')),
                 CategoryCard(
-                    title: 'Seafood',
-                    image: AssetImage('assets/images/seafood.jpg')),
+                    title: 'Tennis',
+                    image: AssetImage('assets/images/cat-tennis.jpg')),
                 CategoryCard(
-                    title: 'Desert',
-                    image: AssetImage('assets/images/desert.jpg')),
+                    title: 'Hockey',
+                    image: AssetImage('assets/images/cat-hockey.jpg')),
                 CategoryCard(
-                    title: 'Spicy',
-                    image: AssetImage('assets/images/spicy.jpg')),
+                    title: 'Basketball',
+                    image: AssetImage('assets/images/cat-basketball.jpg')),
                 CategoryCard(
-                    title: 'Meat', image: AssetImage('assets/images/meat.jpg')),
+                    title: 'Handball',
+                    image: AssetImage('assets/images/cat-handball.jpg')),
               ],
             ),
           ),

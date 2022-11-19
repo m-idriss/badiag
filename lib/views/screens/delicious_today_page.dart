@@ -16,7 +16,7 @@ class DeliciousTodayPage extends StatelessWidget {
         backgroundColor: AppColor.primary,
         elevation: 0,
         centerTitle: true,
-        title: Text('Delicious Today',
+        title: Text('Pronostiques du jour',
             style: TextStyle(
                 fontFamily: 'inter',
                 fontWeight: FontWeight.w400,

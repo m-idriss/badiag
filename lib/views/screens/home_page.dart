@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            'Delicious Today',
+                            'Pronos du jour',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,
@@ -74,7 +74,7 @@ class HomePage extends StatelessWidget {
                               Navigator.of(context).push(MaterialPageRoute(
                                   builder: (context) => DeliciousTodayPage()));
                             },
-                            child: Text('see all'),
+                            child: Text('Tout voir'),
                             style: TextButton.styleFrom(
                                 foregroundColor: Colors.white,
                                 textStyle: TextStyle(
@@ -120,8 +120,11 @@ class HomePage extends StatelessWidget {
                   margin: EdgeInsets.only(bottom: 16),
                   padding: EdgeInsets.symmetric(horizontal: 16),
                   child: Text(
-                    'Today recomendation based on your taste...',
-                    style: TextStyle(color: Colors.grey),
+                    'Pronos validés',
+                    style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600,
+                        fontFamily: 'inter'),
                   ),
                 ),
                 // Content

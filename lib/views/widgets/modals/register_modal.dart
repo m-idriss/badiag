@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hungry/views/screens/page_switcher.dart';
-import 'package:hungry/views/utils/AppColor.dart';
-import 'package:hungry/views/widgets/custom_text_field.dart';
-import 'package:hungry/views/widgets/modals/login_modal.dart';
+import 'package:bookmaker/views/screens/page_switcher.dart';
+import 'package:bookmaker/views/utils/AppColor.dart';
+import 'package:bookmaker/views/widgets/custom_text_field.dart';
+import 'package:bookmaker/views/widgets/modals/login_modal.dart';
 
 class RegisterModal extends StatelessWidget {
   @override

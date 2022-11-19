@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:hungry/models/core/recipe.dart';
-import 'package:hungry/models/helper/recipe_helper.dart';
-import 'package:hungry/views/screens/delicious_today_page.dart';
-import 'package:hungry/views/screens/newly_posted_page.dart';
-import 'package:hungry/views/screens/profile_page.dart';
-import 'package:hungry/views/screens/search_page.dart';
-import 'package:hungry/views/utils/AppColor.dart';
-import 'package:hungry/views/widgets/custom_app_bar.dart';
-import 'package:hungry/views/widgets/dummy_search_bar.dart';
-import 'package:hungry/views/widgets/featured_recipe_card.dart';
-import 'package:hungry/views/widgets/recipe_tile.dart';
-import 'package:hungry/views/widgets/recommendation_recipe_card.dart';
+import 'package:bookmaker/models/core/recipe.dart';
+import 'package:bookmaker/models/helper/recipe_helper.dart';
+import 'package:bookmaker/views/screens/delicious_today_page.dart';
+import 'package:bookmaker/views/screens/newly_posted_page.dart';
+import 'package:bookmaker/views/screens/profile_page.dart';
+import 'package:bookmaker/views/screens/search_page.dart';
+import 'package:bookmaker/views/utils/AppColor.dart';
+import 'package:bookmaker/views/widgets/custom_app_bar.dart';
+import 'package:bookmaker/views/widgets/dummy_search_bar.dart';
+import 'package:bookmaker/views/widgets/featured_recipe_card.dart';
+import 'package:bookmaker/views/widgets/recipe_tile.dart';
+import 'package:bookmaker/views/widgets/recommendation_recipe_card.dart';
 
 class HomePage extends StatelessWidget {
   final List<Recipe> featuredRecipe = RecipeHelper.featuredRecipe;
@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar(
-        title: Text('Hungry?',
+        title: Text('bookmaker?',
             style: TextStyle(fontFamily: 'inter', fontWeight: FontWeight.w700)),
         showProfilePhoto: true,
         profilePhoto: AssetImage('assets/images/pp.png'),

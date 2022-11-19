@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hungry/models/core/recipe.dart';
-import 'package:hungry/models/helper/recipe_helper.dart';
-import 'package:hungry/views/utils/AppColor.dart';
-import 'package:hungry/views/widgets/modals/search_filter_modal.dart';
-import 'package:hungry/views/widgets/recipe_tile.dart';
+import 'package:bookmaker/models/core/recipe.dart';
+import 'package:bookmaker/models/helper/recipe_helper.dart';
+import 'package:bookmaker/views/utils/AppColor.dart';
+import 'package:bookmaker/views/widgets/modals/search_filter_modal.dart';
+import 'package:bookmaker/views/widgets/recipe_tile.dart';
 
 class BookmarksPage extends StatefulWidget {
   @override

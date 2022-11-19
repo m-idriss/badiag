@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:hungry/models/core/recipe.dart';
-import 'package:hungry/models/helper/recipe_helper.dart';
-import 'package:hungry/views/screens/search_page.dart';
-import 'package:hungry/views/utils/AppColor.dart';
-import 'package:hungry/views/widgets/category_card.dart';
-import 'package:hungry/views/widgets/popular_recipe_card.dart';
-import 'package:hungry/views/widgets/recommendation_recipe_card.dart';
+import 'package:bookmaker/models/core/recipe.dart';
+import 'package:bookmaker/models/helper/recipe_helper.dart';
+import 'package:bookmaker/views/screens/search_page.dart';
+import 'package:bookmaker/views/utils/AppColor.dart';
+import 'package:bookmaker/views/widgets/category_card.dart';
+import 'package:bookmaker/views/widgets/popular_recipe_card.dart';
+import 'package:bookmaker/views/widgets/recommendation_recipe_card.dart';
 
 class ExplorePage extends StatelessWidget {
   final Recipe popularRecipe = RecipeHelper.popularRecipe;

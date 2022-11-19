@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hungry/views/utils/AppColor.dart';
-import 'package:hungry/views/widgets/user_info_tile.dart';
+import 'package:bookmaker/views/utils/AppColor.dart';
+import 'package:bookmaker/views/widgets/user_info_tile.dart';
 
 class ProfilePage extends StatelessWidget {
   @override

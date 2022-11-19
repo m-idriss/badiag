@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hungry/views/screens/bookmarks_page.dart';
-import 'package:hungry/views/screens/explore_page.dart';
-import 'package:hungry/views/screens/home_page.dart';
-import 'package:hungry/views/utils/AppColor.dart';
-import 'package:hungry/views/widgets/custom_bottom_navigation_bar.dart';
+import 'package:bookmaker/views/screens/bookmarks_page.dart';
+import 'package:bookmaker/views/screens/explore_page.dart';
+import 'package:bookmaker/views/screens/home_page.dart';
+import 'package:bookmaker/views/utils/AppColor.dart';
+import 'package:bookmaker/views/widgets/custom_bottom_navigation_bar.dart';
 
 class PageSwitcher extends StatefulWidget {
   @override
@@ -33,7 +33,8 @@ class _PageSwitcherState extends State<PageSwitcher> {
           BottomGradientWidget(),
         ],
       ),
-      bottomNavigationBar: CustomBottomNavigationBar(onItemTapped: _onItemTapped, selectedIndex: _selectedIndex),
+      bottomNavigationBar: CustomBottomNavigationBar(
+          onItemTapped: _onItemTapped, selectedIndex: _selectedIndex),
     );
   }
 }

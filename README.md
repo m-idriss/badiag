@@ -64,7 +64,7 @@ Bookmaker is Developed by [idriss]
 Iconly, icons that i used on this project, created by [Piqo Design](https://www.figma.com/@piqodesign)
 
 ## License
-Hungry is under MIT License.
+bookmaker is under MIT License.
 
 ## Donate
 

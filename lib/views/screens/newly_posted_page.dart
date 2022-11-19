@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hungry/models/core/recipe.dart';
-import 'package:hungry/models/helper/recipe_helper.dart';
-import 'package:hungry/views/utils/AppColor.dart';
-import 'package:hungry/views/widgets/recipe_tile.dart';
+import 'package:bookmaker/models/core/recipe.dart';
+import 'package:bookmaker/models/helper/recipe_helper.dart';
+import 'package:bookmaker/views/utils/AppColor.dart';
+import 'package:bookmaker/views/widgets/recipe_tile.dart';
 
 class NewlyPostedPage extends StatelessWidget {
   final TextEditingController searchInputController = TextEditingController();

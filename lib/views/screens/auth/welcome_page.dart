@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hungry/views/utils/AppColor.dart';
-import 'package:hungry/views/widgets/modals/login_modal.dart';
-import 'package:hungry/views/widgets/modals/register_modal.dart';
+import 'package:bookmaker/views/utils/AppColor.dart';
+import 'package:bookmaker/views/widgets/modals/login_modal.dart';
+import 'package:bookmaker/views/widgets/modals/register_modal.dart';
 
 class WelcomePage extends StatelessWidget {
   @override
@@ -36,14 +36,14 @@ class WelcomePage extends StatelessWidget {
                     children: [
                       Padding(
                         padding: EdgeInsets.only(bottom: 16),
-                        child: Text('Hungry?',
+                        child: Text('bookmaker?',
                             style: TextStyle(
                                 fontFamily: 'inter',
                                 fontWeight: FontWeight.w700,
                                 fontSize: 32,
                                 color: Colors.white)),
                       ),
-                      Text("Help you when you're hungry",
+                      Text("Help you when you're bookmaker",
                           style: TextStyle(color: Colors.white)),
                     ],
                   ),
@@ -125,7 +125,7 @@ class WelcomePage extends StatelessWidget {
                         child: RichText(
                           textAlign: TextAlign.center,
                           text: TextSpan(
-                            text: 'By joining Hungry, you agree to our ',
+                            text: 'By joining bookmaker, you agree to our ',
                             style: TextStyle(
                                 color: Colors.white.withOpacity(0.6),
                                 height: 150 / 100),

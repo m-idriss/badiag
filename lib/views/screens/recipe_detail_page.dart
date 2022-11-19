@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hungry/models/core/recipe.dart';
-import 'package:hungry/views/screens/full_screen_image.dart';
-import 'package:hungry/views/utils/AppColor.dart';
-import 'package:hungry/views/widgets/ingridient_tile.dart';
-import 'package:hungry/views/widgets/review_tile.dart';
-import 'package:hungry/views/widgets/step_tile.dart';
+import 'package:bookmaker/models/core/recipe.dart';
+import 'package:bookmaker/views/screens/full_screen_image.dart';
+import 'package:bookmaker/views/utils/AppColor.dart';
+import 'package:bookmaker/views/widgets/ingridient_tile.dart';
+import 'package:bookmaker/views/widgets/review_tile.dart';
+import 'package:bookmaker/views/widgets/step_tile.dart';
 
 class RecipeDetailPage extends StatefulWidget {
   final Recipe data;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hungry/views/utils/AppColor.dart';
+import 'package:bookmaker/views/utils/AppColor.dart';
 
 class CustomTextField extends StatelessWidget {
   final String title;
@@ -38,7 +38,9 @@ class CustomTextField extends StatelessWidget {
             margin: EdgeInsets.only(top: 8),
             width: MediaQuery.of(context).size.width,
             height: 50,
-            decoration: BoxDecoration(color: AppColor.primaryExtraSoft, borderRadius: BorderRadius.circular(10)),
+            decoration: BoxDecoration(
+                color: AppColor.primaryExtraSoft,
+                borderRadius: BorderRadius.circular(10)),
             child: TextField(
               controller: controller,
               style: TextStyle(fontSize: 14),

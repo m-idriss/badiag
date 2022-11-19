@@ -1,13 +1,10 @@
-# Hungry.
+# Bookmaker.
 
 ## Introduction
 
-Hungry is a Free Flutter Recipe App Starter Template that can help you develop a Recipe application much faster. You just need to add some adjustment to the frontend and you can create your own backend.
+Bookmaker is a Free Flutter Recipe App Starter Template that can help you develop a Recipe application much faster. You just need to add some adjustment to the frontend and you can create your own backend.
 
 ## App Screenshot
-<img src="https://github.com/mrezkys/hungry/blob/main/demo/banner.jpg" width="auto" height="auto" >
-<img src="https://github.com/mrezkys/hungry/blob/main/demo/shot.jpg" width="auto" height="auto" >
-<img src="https://github.com/mrezkys/hungry/blob/main/demo/details.jpg" width="auto" height="auto" >
 
 ## Whats inside
 - Welcome Page
@@ -45,21 +42,13 @@ Hungry is a Free Flutter Recipe App Starter Template that can help you develop a
 
 **Step 1:**
 
-Download or clone this repo by using the link below:
-
-```
-https://github.com/mrezkys/hungry.git
-```
-
-**Step 2:**
-
 Go to project root and execute the following command in console to get the required dependencies: 
 
 ```
 flutter pub get 
 ```
 
-**Step 3:**
+**Step 2:**
 
 You can run this project by using this command
 
@@ -67,11 +56,9 @@ You can run this project by using this command
 flutter run
 ```
 
-
 ## About the Author
 
-Hungry is Developed by [mrezkys](https://www.facebook.com/mrezkys12)
-The User Interface are designed by [mrezkys](https://dribbble.com/mrezkys)
+Bookmaker is Developed by [idriss]
 
 ## Thanks To
 Iconly, icons that i used on this project, created by [Piqo Design](https://www.figma.com/@piqodesign)
@@ -80,9 +67,8 @@ Iconly, icons that i used on this project, created by [Piqo Design](https://www.
 Hungry is under MIT License.
 
 ## Donate
-You can support me at [trakteer](https://trakteer.id/mrezkys) <br>
-<a href="https://trakteer.id/mrezkys" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-5.png" height="45" style="border: 0px; height: 45px;" alt="Trakteer Saya"></a>
+
 
 ## Announcement
 
-Now Hungry already relased v1.0.0
+

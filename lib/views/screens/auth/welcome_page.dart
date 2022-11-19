@@ -36,7 +36,7 @@ class WelcomePage extends StatelessWidget {
                     children: [
                       Padding(
                         padding: EdgeInsets.only(bottom: 16),
-                        child: Text('bookmaker?',
+                        child: Text('bookmaker',
                             style: TextStyle(
                                 fontFamily: 'inter',
                                 fontWeight: FontWeight.w700,

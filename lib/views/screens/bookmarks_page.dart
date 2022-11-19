@@ -23,7 +23,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
         backgroundColor: AppColor.primary,
         centerTitle: false,
         elevation: 0,
-        title: Text('Bookmarks',
+        title: Text('Bookmarks : my bets',
             style: TextStyle(
                 fontFamily: 'inter',
                 fontWeight: FontWeight.w400,

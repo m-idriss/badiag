@@ -1,3 +1,4 @@
+import 'package:bookmaker/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -51,7 +52,7 @@ class ProfilePage extends StatelessWidget {
             padding: EdgeInsets.symmetric(vertical: 24),
             child: GestureDetector(
               onTap: () {
-                print('Code to open file manager');
+                info('Code to open file manager');
               },
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,

@@ -1,3 +1,4 @@
+import 'package:bookmaker/utils/logger.dart';
 import 'package:flutter/material.dart';
 import 'package:bookmaker/views/utils/AppColor.dart';
 import 'package:bookmaker/views/widgets/modals/login_modal.dart';
@@ -6,6 +7,7 @@ import 'package:bookmaker/views/widgets/modals/register_modal.dart';
 class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    info("$runtimeType - build");
     return Scaffold(
         body: SingleChildScrollView(
       child: Stack(

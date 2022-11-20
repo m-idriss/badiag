@@ -6,6 +6,7 @@ import 'package:bookmaker/models/helper/recipe_helper.dart';
 import 'package:bookmaker/views/utils/AppColor.dart';
 import 'package:bookmaker/views/widgets/modals/search_filter_modal.dart';
 import 'package:bookmaker/views/widgets/recipe_tile.dart';
+import 'package:bookmaker/utils/utils.dart';
 
 class BookmarksPage extends StatefulWidget {
   @override
@@ -59,7 +60,8 @@ class _BookmarksPageState extends State<BookmarksPage> {
                         child: TextField(
                           controller: searchInputController,
                           onChanged: (value) {
-                            print(searchInputController.text);
+                            info(
+                                "$runtimeType : " + searchInputController.text);
                             setState(() {});
                           },
                           style: TextStyle(

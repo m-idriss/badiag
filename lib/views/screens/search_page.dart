@@ -1,3 +1,4 @@
+import 'package:bookmaker/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -18,7 +19,7 @@ class _SearchPageState extends State<SearchPage> {
 
   @override
   Widget build(BuildContext context) {
-    print(searchInputController.text.isEmpty);
+    info("$runtimeType : " + searchInputController.text.isEmpty.toString());
     return Scaffold(
       appBar: AppBar(
         backgroundColor: AppColor.primary,
@@ -67,7 +68,8 @@ class _SearchPageState extends State<SearchPage> {
                           child: TextField(
                             controller: searchInputController,
                             onChanged: (value) {
-                              print(searchInputController.text);
+                              info("$runtimeType : " +
+                                  searchInputController.text);
                               setState(() {});
                             },
                             style: TextStyle(

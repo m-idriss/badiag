@@ -15,7 +15,7 @@ class WelcomePage extends StatelessWidget {
               height: MediaQuery.of(context).size.height,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage('assets/images/bgg.jpg'),
+                      image: AssetImage('assets/images/bg.jpg'),
                       fit: BoxFit.cover)),
               child: Container(
                 decoration: BoxDecoration(gradient: AppColor.bottomGradient),

@@ -98,12 +98,12 @@ class ProfilePage extends StatelessWidget {
                 UserInfoTile(
                   margin: EdgeInsets.only(bottom: 16),
                   label: 'Email',
-                  value: 'reinazahradummy@gmail.com',
+                  value: 'antonio.schmidt@example.com',
                 ),
                 UserInfoTile(
                   margin: EdgeInsets.only(bottom: 16),
                   label: 'Full Name',
-                  value: 'Reina Zahra Azizah',
+                  value: 'Antonio Schmidt',
                 ),
                 UserInfoTile(
                   margin: EdgeInsets.only(bottom: 16),

@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
         title: Text('bookmaker',
             style: TextStyle(fontFamily: 'inter', fontWeight: FontWeight.w700)),
         showProfilePhoto: true,
-        profilePhoto: AssetImage('assets/images/pp.png'),
+        profilePhoto: AssetImage('assets/images/profile.jpg'),
         profilePhotoOnPressed: () {
           Navigator.of(context)
               .push(MaterialPageRoute(builder: (context) => ProfilePage()));

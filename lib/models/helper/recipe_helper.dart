@@ -94,7 +94,7 @@ class RecipeHelper {
 
 var popularRecipeRawData = {
   'title': 'Green Healthy Meat & Vegetable Pizza.',
-  'photo': 'assets/images/prono6.jpg',
+  'photo': 'assets/images/prono5.jpg',
   'calories': '1500 Cal',
   'time': '25 min',
   'description':

@@ -91,8 +91,11 @@ class ExplorePage extends StatelessWidget {
                   margin: EdgeInsets.only(bottom: 16),
                   padding: EdgeInsets.symmetric(horizontal: 16),
                   child: Text(
-                    'Todays sweet food to make your day happy ......',
-                    style: TextStyle(color: Colors.grey),
+                    'Les pronos du jour',
+                    style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600,
+                        fontFamily: 'inter'),
                   ),
                 ),
                 // Content

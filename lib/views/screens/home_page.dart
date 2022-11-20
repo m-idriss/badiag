@@ -160,7 +160,7 @@ class HomePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      'Newly Posted',
+                      'Nouveau prono',
                       style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
@@ -171,7 +171,7 @@ class HomePage extends StatelessWidget {
                         Navigator.of(context).push(MaterialPageRoute(
                             builder: (context) => NewlyPostedPage()));
                       },
-                      child: Text('see all'),
+                      child: Text('Tout voir'),
                       style: TextButton.styleFrom(
                           foregroundColor: Colors.black,
                           textStyle: TextStyle(

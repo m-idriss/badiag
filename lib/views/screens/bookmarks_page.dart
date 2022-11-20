@@ -133,7 +133,7 @@ class _BookmarksPageState extends State<BookmarksPage> {
             child: ListView.separated(
               shrinkWrap: true,
               itemCount: bookmarkedRecipe.length,
-              // physics: NeverScrollableScrollPhysics(),
+              physics: NeverScrollableScrollPhysics(),
               separatorBuilder: (context, index) {
                 return SizedBox(height: 16);
               },

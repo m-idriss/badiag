@@ -94,7 +94,7 @@ class RecipeHelper {
 
 var popularRecipeRawData = {
   'title': 'Green Healthy Meat & Vegetable Pizza.',
-  'photo': 'assets/images/prono5.jpg',
+  'photo': 'assets/images/popularnowpizza.jpg',
   'calories': '1500 Cal',
   'time': '25 min',
   'description':
@@ -175,7 +175,7 @@ var popularRecipeRawData = {
 var featuredRecipeRawData = [
   {
     'title': 'Green Leafy Vegetable Dish.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/featured2.jpg',
     'calories': '1500 Cal',
     'time': '25 min',
     'description':
@@ -254,7 +254,7 @@ var featuredRecipeRawData = [
   },
   {
     'title': 'Noodles With Vegetable in Bowl.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/featured1.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -333,7 +333,7 @@ var featuredRecipeRawData = [
   },
   {
     'title': 'Healthy Vege Green Egg.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/list1.jpg',
     'calories': '1500 Cal',
     'time': '25 min',
     'description':
@@ -412,7 +412,7 @@ var featuredRecipeRawData = [
   },
   {
     'title': 'Delicious Salad by Ron.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/list2.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -491,7 +491,7 @@ var featuredRecipeRawData = [
   },
   {
     'title': 'Breakfast Delimenu.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/list3.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -573,7 +573,7 @@ var featuredRecipeRawData = [
 var recommendationRecipeRawData = [
   {
     'title': 'Brown Chopstick Bowl',
-    'photo': 'assets/images/prono5.jpg',
+    'photo': 'assets/images/recom2.jpg',
     'calories': '1500 Cal',
     'time': '25 min',
     'description':
@@ -652,86 +652,7 @@ var recommendationRecipeRawData = [
   },
   {
     'title': 'Delicious Salad with Egg.',
-    'photo': 'assets/images/prono5.jpg',
-    'calories': '870 Cal',
-    'time': '32 min',
-    'description':
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    'ingridients': [
-      {
-        'name': 'Spinach',
-        'size': '250 g',
-      },
-      {
-        'name': 'Noodles',
-        'size': '1000 g',
-      },
-      {
-        'name': 'Chili',
-        'size': '50 g',
-      },
-      {
-        'name': 'Chocolatte',
-        'size': '1000 g',
-      },
-      {
-        'name': 'Brocolli',
-        'size': '150 g',
-      }
-    ],
-    'tutorial': [
-      {
-        'step': '1. Tuangkan Air.',
-        'description':
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
-      },
-      {
-        'step': '2. Masukkan Mie.',
-        'description':
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
-      },
-      {
-        'step': '3. Cuci Piringnya.',
-        'description':
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
-      },
-      {
-        'step': '4. Tambahkan Nasi.',
-        'description':
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
-      },
-      {
-        'step': '5. Buang semua isi piring.',
-        'description':
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat',
-      },
-    ],
-    'reviews': [
-      {
-        'username': '@username',
-        'review':
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      },
-      {
-        'username': '@username',
-        'review':
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      },
-      {
-        'username': '@username',
-        'review':
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      },
-      {
-        'username': '@username',
-        'review':
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      },
-    ]
-  },
-  {
-    'title': 'Delicious Salad with Egg.',
-    'photo': 'assets/images/prono5.jpg',
+    'photo': 'assets/images/recom1.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -813,7 +734,7 @@ var recommendationRecipeRawData = [
 var newlyPostedRecipeRawData = [
   {
     'title': 'Healthy Vege Green Egg.',
-    'photo': 'assets/images/prono1.jpg',
+    'photo': 'assets/images/list1.jpg',
     'calories': '1500 Cal',
     'time': '25 min',
     'description':
@@ -892,7 +813,7 @@ var newlyPostedRecipeRawData = [
   },
   {
     'title': 'Delicious Salad by Ron.',
-    'photo': 'assets/images/prono2.jpg',
+    'photo': 'assets/images/list2.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -971,7 +892,7 @@ var newlyPostedRecipeRawData = [
   },
   {
     'title': 'Breakfast Delimenu.',
-    'photo': 'assets/images/prono3.jpg',
+    'photo': 'assets/images/list3.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -1050,7 +971,7 @@ var newlyPostedRecipeRawData = [
   },
   {
     'title': 'Basil Leaves & Avocado Bread.',
-    'photo': 'assets/images/prono4.jpg',
+    'photo': 'assets/images/list4.jpg',
     'calories': '1200 Cal',
     'time': '40 min',
     'description':
@@ -1129,7 +1050,7 @@ var newlyPostedRecipeRawData = [
   },
   {
     'title': 'Healthy Beef & Egg.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/list5.jpg',
     'calories': '1100 Cal',
     'time': '30 min',
     'description':
@@ -1208,7 +1129,7 @@ var newlyPostedRecipeRawData = [
   },
   {
     'title': 'Meats and Vegetables Bowl.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/list6.jpg',
     'calories': '1450 Cal',
     'time': '120 min',
     'description':
@@ -1287,7 +1208,7 @@ var newlyPostedRecipeRawData = [
   },
   {
     'title': 'Pancake with Honey.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/sweetfood1.jpg',
     'calories': '1500 Cal',
     'time': '25 min',
     'description':
@@ -1366,7 +1287,7 @@ var newlyPostedRecipeRawData = [
   },
   {
     'title': 'Chocolate Pancake.',
-    'photo': 'assets/images/prono7.jpg',
+    'photo': 'assets/images/sweetfood2.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -1448,7 +1369,7 @@ var newlyPostedRecipeRawData = [
 var sweetFoodRecommendationRecipeRawData = [
   {
     'title': 'Pancake with Honey.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/sweetfood1.jpg',
     'calories': '1500 Cal',
     'time': '25 min',
     'description':
@@ -1527,7 +1448,7 @@ var sweetFoodRecommendationRecipeRawData = [
   },
   {
     'title': 'Chocolate Pancake.',
-    'photo': 'assets/images/prono7.jpg',
+    'photo': 'assets/images/sweetfood2.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -1607,20 +1528,22 @@ var sweetFoodRecommendationRecipeRawData = [
 ];
 
 var popularRecipeKeyword = [
-  'Football',
-  'Rugby',
-  'Tennis',
-  'Hockey',
-  'League1',
-  'Champions league',
-  'Basketball',
-  'Handball'
+  'Noodles',
+  'Bakso',
+  'Kwetiaw',
+  'Nasi Goreng',
+  'Spaghetti',
+  'Rujak',
+  'Chicken',
+  'Nugget',
+  'Ice Cream',
+  'Bakmi'
 ];
 
 var recipeSearchResultRawData = [
   {
     'title': 'Healthy Vege Green Egg.',
-    'photo': 'assets/images/prono1.jpg',
+    'photo': 'assets/images/list1.jpg',
     'calories': '1500 Cal',
     'time': '25 min',
     'description':
@@ -1699,7 +1622,7 @@ var recipeSearchResultRawData = [
   },
   {
     'title': 'Delicious Salad by Ron.',
-    'photo': 'assets/images/prono2.jpg',
+    'photo': 'assets/images/list2.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -1778,7 +1701,7 @@ var recipeSearchResultRawData = [
   },
   {
     'title': 'Basil Leaves & Avocado Bread.',
-    'photo': 'assets/images/prono4.jpg',
+    'photo': 'assets/images/list4.jpg',
     'calories': '1200 Cal',
     'time': '40 min',
     'description':
@@ -1857,7 +1780,7 @@ var recipeSearchResultRawData = [
   },
   {
     'title': 'Healthy Beef & Egg.',
-    'photo': 'assets/images/prono5.jpg',
+    'photo': 'assets/images/list5.jpg',
     'calories': '1100 Cal',
     'time': '30 min',
     'description':
@@ -1936,7 +1859,7 @@ var recipeSearchResultRawData = [
   },
   {
     'title': 'Meats and Vegetables Bowl.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/list6.jpg',
     'calories': '1450 Cal',
     'time': '120 min',
     'description':
@@ -2015,7 +1938,7 @@ var recipeSearchResultRawData = [
   },
   {
     'title': 'Breakfast Delimenu.',
-    'photo': 'assets/images/prono3.jpg',
+    'photo': 'assets/images/list3.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -2097,7 +2020,7 @@ var recipeSearchResultRawData = [
 var bookmarkedRecipeRawData = [
   {
     'title': 'Healthy Vege Green Egg.',
-    'photo': 'assets/images/prono1.jpg',
+    'photo': 'assets/images/list1.jpg',
     'calories': '1500 Cal',
     'time': '25 min',
     'description':
@@ -2176,7 +2099,7 @@ var bookmarkedRecipeRawData = [
   },
   {
     'title': 'Delicious Salad by Ron.',
-    'photo': 'assets/images/prono2.jpg',
+    'photo': 'assets/images/list2.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':
@@ -2255,7 +2178,7 @@ var bookmarkedRecipeRawData = [
   },
   {
     'title': 'Basil Leaves & Avocado Bread.',
-    'photo': 'assets/images/prono4.jpg',
+    'photo': 'assets/images/list4.jpg',
     'calories': '1200 Cal',
     'time': '40 min',
     'description':
@@ -2334,7 +2257,7 @@ var bookmarkedRecipeRawData = [
   },
   {
     'title': 'Healthy Beef & Egg.',
-    'photo': 'assets/images/prono5.jpg',
+    'photo': 'assets/images/list5.jpg',
     'calories': '1100 Cal',
     'time': '30 min',
     'description':
@@ -2413,7 +2336,7 @@ var bookmarkedRecipeRawData = [
   },
   {
     'title': 'Meats and Vegetables Bowl.',
-    'photo': 'assets/images/prono6.jpg',
+    'photo': 'assets/images/list6.jpg',
     'calories': '1450 Cal',
     'time': '120 min',
     'description':
@@ -2492,7 +2415,7 @@ var bookmarkedRecipeRawData = [
   },
   {
     'title': 'Breakfast Delimenu.',
-    'photo': 'assets/images/prono3.jpg',
+    'photo': 'assets/images/list3.jpg',
     'calories': '870 Cal',
     'time': '32 min',
     'description':

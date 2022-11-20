@@ -54,23 +54,22 @@ class ExplorePage extends StatelessWidget {
               runSpacing: 16,
               children: [
                 CategoryCard(
-                    title: 'Football',
-                    image: AssetImage('assets/images/cat-football.jpg')),
+                    title: 'Healthy',
+                    image: AssetImage('assets/images/healthy.jpg')),
                 CategoryCard(
-                    title: 'Rugby',
-                    image: AssetImage('assets/images/cat-rugby.jpg')),
+                    title: 'Drink',
+                    image: AssetImage('assets/images/drink.jpg')),
                 CategoryCard(
-                    title: 'Tennis',
-                    image: AssetImage('assets/images/cat-tennis.jpg')),
+                    title: 'Seafood',
+                    image: AssetImage('assets/images/seafood.jpg')),
                 CategoryCard(
-                    title: 'Hockey',
-                    image: AssetImage('assets/images/cat-hockey.jpg')),
+                    title: 'Desert',
+                    image: AssetImage('assets/images/desert.jpg')),
                 CategoryCard(
-                    title: 'Basketball',
-                    image: AssetImage('assets/images/cat-basketball.jpg')),
+                    title: 'Spicy',
+                    image: AssetImage('assets/images/spicy.jpg')),
                 CategoryCard(
-                    title: 'Handball',
-                    image: AssetImage('assets/images/cat-handball.jpg')),
+                    title: 'Meat', image: AssetImage('assets/images/meat.jpg')),
               ],
             ),
           ),
@@ -91,11 +90,8 @@ class ExplorePage extends StatelessWidget {
                   margin: EdgeInsets.only(bottom: 16),
                   padding: EdgeInsets.symmetric(horizontal: 16),
                   child: Text(
-                    'Les pronos du jour',
-                    style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
-                        fontFamily: 'inter'),
+                    'Todays sweet food to make your day happy ......',
+                    style: TextStyle(color: Colors.grey),
                   ),
                 ),
                 // Content
